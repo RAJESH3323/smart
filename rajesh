@@ -1,0 +1,7 @@
+r,s=map(int,input().split())
+arr=list(input().split())
+arr=[int(x) for x in arr]
+sum=0
+for k in range(0,s):
+  sum=sum+arr[k]
+print(sum)
